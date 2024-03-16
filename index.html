@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>project</title>
+</head>
+<body>
+    <main class="conteiner grid-main">
+        <div class="tool-bar">
+            <aside>
+                <nav>
+                    <ul>
+                        <li class="option">
+                            <button class="font-m-n button-list gray4">1</button>
+                            <div class="option-content">
+                                <span class="font-p-l blue3">STEP 1</span>
+                                <span class="font-m-b gray4">YOUR INFO</span>
+                            </div>
+                        </li>
+                        <li class="option">
+                            <button class="font-m-n button-list gray4">2</button>
+                            <div class="option-content">
+                                <span class="font-p-l blue3">STEP 2</span>
+                                <span class="font-m-b gray4">SELECT PLAN</span>
+                            </div>
+                        </li>
+                        <li class="option">
+                            <button class="font-m-n button-list gray4">3</button>
+                            <div class="option-content">
+                                <span class="font-p-l blue3">STEP 3</span>
+                                <span class="font-m-b gray4">ADD-ONS</span>
+                            </div>
+                        </li>
+                        <li class="option">
+                            <button class="font-m-n button-list gray4">4</button>
+                            <div class="option-content">
+                                <span class="font-p-l blue3">STEP 4</span>
+                                <span class="font-m-b gray4">SUMMARY</span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+
+        <div class="content">
+            <div class="cabecalho">
+                <h1 class="font-g-b blue1">Personal info</h1>
+                <span class="font-m-l gray1">Please provide your name, email address, and phone number.</span>
+            </div>
+            <form class="step-one form-column" action="#plan">
+                <div class="form-conteiner">
+                <div class="form-campo">
+                    <div class="label-conteiner">
+                        <label for="name" class="font-m-l blue1">Name</label>
+                        <span class="font-m-b red">This field is required</span>
+                    </div>
+                    <input class="font-m-n input-form blue1" type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-campo">
+                    <div  class="label-conteiner">
+                        <label for="email blue1 font-m-l" class="font-m-l">Email Address</label>
+                        <span class="font-m-b red">This field is required</span>
+                    </div>
+                    <input class="font-m-n input-form" type="email" name="email" id="email" placeholder="myemail@email.com" required>
+                </div>
+                <div class="form-campo">
+                    <div  class="label-conteiner">
+                        <label for="phone" class="font-m-l blue1">Phone Number</label>
+                        <span class="font-m-b red">This field is required</span>
+                    </div>
+                    <input class="font-m-n input-form" type="tel" name="phone" id="phone" placeholder="43 99999-9999" required>
+                </div>
+            </div>
+                <div class="navigation">
+                    <a href="#initial" class="back gray1 font-m-n">go back</a>
+                    <input type="submit" value="Next Step" class="form-submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+
+.content {
+    box-sizing: border-box;
+    height: 568px;
+    padding: 2rem;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin-bottom: 3rem;
+}
+
+.label-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-conteiner {
+    margin-bottom: 100px;
+}
+
+

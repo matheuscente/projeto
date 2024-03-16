@@ -1,0 +1,8 @@
+@import './utilidades/global.css';
+@import './utilidades/cores.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/utilities.css';
+@import 'stepOne.css';
+@import 'plan.css';
+@import 'adds.css';
+@import 'finish.css';

@@ -1,0 +1,55 @@
+:root {
+        /*cores cinzas*/
+    --c1: hsl(231, 11%, 63%);
+    --c2: hsl(229, 24%, 87%);
+    --c3: hsl(217, 100%, 97%);
+    --c4: hsl(231, 100%, 99%);
+    --c5: hsl(0, 0%, 100%);
+
+        /*outras cores*/
+    --b1: hsl(213, 96%, 18%);
+    --b2: hsl(243, 100%, 62%);
+    --b3: hsl(228, 100%, 84%);
+    --b4: hsl(206, 94%, 87%);
+    --v:  hsl(354, 84%, 57%);
+}
+
+.gray1 {
+    color: var(--c1);
+}
+
+.gray2 {
+    color: var(--c2);
+}
+
+.gray3 {
+    color: var(--c3);
+}
+
+.gray4 {
+    color: var(--c4);
+}
+
+.gray5 {
+    color: var(--c5);
+}
+
+.red {
+    color: var(--v);
+}
+
+.blue1{
+    color: var(--b1);
+}
+
+.blue2{
+    color: var(--b2);
+}
+
+.blue3{
+    color: var(--b3);
+}
+
+.blue4{
+    color: var(--b4);
+}

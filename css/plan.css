@@ -1,0 +1,81 @@
+
+.checkbox {
+    display: none;
+}
+
+.conteiner-check{
+    background-color: var(--b1);
+    height: 22px;
+    width: 42px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.conteiner-check .ball {
+    transition: .3s;
+    width: 14px;
+    height: 14px;
+    background-color: var(--c5);
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+}
+
+.checkbox:checked + .ball {
+    left: 23px;
+}
+
+.select-plan-time {
+    display: flex;
+    background-color: var(--c3);
+    justify-content: center;
+    padding: 15px;
+}
+
+.time {
+    display: inline-block;
+}
+
+.label-checkbox {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.span-option {
+    display: inline-block;
+}
+.label-option {
+    width: 160px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    border: 3px solid var(--c3)
+}
+
+.label-option:hover {
+    border-width: 2px;
+    border-color: var(--b2);
+}
+
+.label-option
+
+.input-radio {
+    -webkit-appearance: none;
+}
+
+.flex-radio {
+    gap: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.icon-radio {
+    margin-bottom: 25px;
+}
