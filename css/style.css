@@ -6,3 +6,10 @@
 @import 'plan.css';
 @import 'adds.css';
 @import 'finish.css';
+
+/*RESPONSIVO*/
+@import 'responsivo/stepOneResp.css';
+@import 'responsivo/utilitiesResp.css';
+@import 'responsivo/planResp.css';
+@import 'responsivo/addsResp.css';
+@import 'responsivo/finishResp.css';

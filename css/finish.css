@@ -3,12 +3,12 @@
 }
 
 .bg {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: var(--c3);
 }
 
 .plan-selected {
-    padding: 20px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +53,30 @@
     right: 0px;
 }
 
-.plan-selected-title {
-    margin-bottom: 5px;
-}
 
 .plan-selected-price {
     font-size: 1.1rem;
+}
+
+.plan-selected-adds {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 30px 20px;
+}
+
+
+.plan-selected-adds:first-child {
+    padding-bottom: 0px;
+}
+
+.total-plan {
+    padding: 40px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-div {
+    display: flex;
+    gap: .3rem;
+    align-items: center;
 }

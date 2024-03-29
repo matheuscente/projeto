@@ -7,7 +7,7 @@
     grid-template-columns: 30px 1fr min-content;
     align-items: center;
     cursor: pointer;
-    margin-bottom: 20px;
+    flex: 1;
 }
 
 .adds-form:hover {
@@ -68,6 +68,6 @@
 
 .price {
     text-align: center;
-    display: flex;
     grid-column: 3;
+    margin-left: 1.5rem;
 }

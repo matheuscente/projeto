@@ -1,0 +1,37 @@
+
+@media (max-width: 550px) {
+    .price {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .adds-form {
+        padding: 18px;
+    }
+
+    .adds-form-option-flex {
+        gap: .3rem;
+    }
+
+    .personalized-checkbox {
+        top: 28px;
+        left: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .price {
+        grid-column: 2;
+        justify-self: start;
+        margin-left: 25px;
+    }
+
+    .adds-form {
+        row-gap: .5rem;
+    }
+
+    .adds-form-option-flex {
+        gap: .5rem;
+    }
+}

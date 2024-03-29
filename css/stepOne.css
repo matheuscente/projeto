@@ -4,6 +4,9 @@
     box-sizing: border-box;
     height: 568px;
     padding: 2rem;
+    padding-right: 0px;
+    max-width: 100%;
+    
 }
 
 .cabecalho {
@@ -19,8 +22,5 @@
     align-items: center;
 }
 
-.form-conteiner {
-    margin-bottom: 100px;
-}
 
 

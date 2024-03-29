@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+
+    .flex-radio {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .label-option {
+        padding: 18px;
+        width: 100%;
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        box-sizing: border-box;
+
+    }
+
+    .flex-radio h2,
+    .span-option:nth-child(odd) {
+        margin-bottom: 8px;
+    }
+
+    .content {
+        padding: 2.2rem 1.5rem;
+    }
+
+    .desc-flex-radio {
+        gap: 0px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .content {
+        padding: 2.5rem 1.5rem;
+    }
+    .label-conteiner {
+        flex-direction: column;
+        align-items: start;
+        gap: .3rem
+    }
+
+    .label-conteiner span {
+        display: inline-block;
+    }
+}

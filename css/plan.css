@@ -63,8 +63,6 @@
     border-color: var(--b2);
 }
 
-.label-option
-
 .input-radio {
     -webkit-appearance: none;
 }
@@ -78,4 +76,11 @@
 
 .icon-radio {
     margin-bottom: 25px;
+}
+
+.desc-flex-radio {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex-grow: 1;
 }

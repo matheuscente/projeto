@@ -1,0 +1,18 @@
+@media (max-width: 400px) {
+    .total-plan {
+        align-items: center;
+    }
+
+    .plan-time {
+        margin-bottom: 10px;
+    }
+
+    .total-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: start;
+    }
+
+
+}

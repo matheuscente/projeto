@@ -1,0 +1,99 @@
+@media (max-width: 1100px) {
+    .grid-main {
+        gap: 3rem;
+        grid-template-columns: 250px max-content;
+    }
+
+    .tool-bar {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .option {
+        gap: .8rem;
+        margin-bottom: 0px;
+    }
+    .cabecalho {
+        margin: 0 auto 20px auto;
+    }
+
+    .cabecalho span {
+        line-height: 1.5;
+        max-width: 50ch;
+    }
+    .option-content {
+        display: none;
+    }
+
+    .grid-main {
+        display: block;
+        height: 100vh;
+    }
+
+.conteiner {
+    margin: 0;
+    padding: 0;
+}
+
+.tool-bar ul {
+    display: flex;
+    gap: .8rem;
+    margin: 0 auto;
+    max-width: max-content;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tool-bar {
+    background-image: url(/images/bg/bg-sidebar-mobile.svg);
+    background-size: cover ;
+    border-radius: 0;
+    height: 25vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.content {
+    border-radius: 10px;
+    margin: -40px auto 60px auto;
+    width: 90vw;
+    height: max-content;
+    background-color: var(--c5);
+    padding: 3rem;
+
+}
+
+.grid-main {
+    background-color: var(--c3);
+    box-shadow: none;
+}
+ .form-column {
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+.navigation {
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+    padding: 20px;
+    background-color: var(--c5);
+    
+}
+
+}
+
+@media (max-width: 600px) {
+.grid-main {
+    margin-bottom: 120px;
+}
+}
+
+
+
+
+
+
+
