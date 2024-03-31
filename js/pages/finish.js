@@ -1,5 +1,13 @@
-export function finish() {
-    const template = `<div class="cabecalho">
+import {page} from "./page.js"
+
+export class finish extends page {
+  constructor() {
+    super()
+}
+
+    corpo() {
+        let content = `
+        <div class="cabecalho">
     <h1 class="font-g-b blue1">Finishing up</h1>
     <span class="font-m-l gray1"
       >Double-check everything looks OK before confirming.</span
@@ -35,7 +43,10 @@ export function finish() {
       </div>
       <span class="font-m-b blue2 total">+$12/mo</span>
     </div>
-  </div>
-    `
-    return template
+  </div>`
+        return content
+    }
+
+    
+
 }

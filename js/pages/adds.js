@@ -1,5 +1,13 @@
-export function adds() {
-    const content = `<div class="cabecalho">
+import {page} from "./page.js"
+
+export class adds extends page {
+    constructor() {
+        super()
+    }
+
+    corpo() {
+        let content = `
+        <div class="cabecalho">
     <h1 class="font-g-b blue1">Pick add-ons</h1>
     <span class="font-m-l gray1">Add-ons help enhance your gaming experience</span>
 </div>
@@ -40,5 +48,6 @@ export function adds() {
             <span class="font-m-n blue2 price">+$20/yr</span>
         </label>
 </form>`
-    return content
+        return content
+    }
 }

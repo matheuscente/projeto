@@ -90,6 +90,7 @@ body {
     letter-spacing: .5px;
     padding: 15px 25px;
     cursor: pointer;
+    margin-left: auto;
 }
 
 .form-submit:hover {
@@ -133,8 +134,12 @@ body {
 
 }
 
-.background-toolbar {
+.bg-page-list {
     background-color: var(--b4);
+}
+
+.none {
+    display: none !important;
 }
 
 
