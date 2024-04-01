@@ -4,7 +4,7 @@ import {page} from "./page.js"
 export class home extends page {
     constructor() {
         super()
-        this.required = document.querySelectorAll('.required-input')
+        
 
     }
 

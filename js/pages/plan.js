@@ -7,6 +7,8 @@ export class plan extends page {
         this.name = name
         this.preco = preco
         this.freeMonth = freeMonth
+        this.opcao = document.querySelectorAll('.label-option')
+        this.plan = document.querySelectorAll('.input-radio')
     }
 
     showPrice() {
@@ -70,7 +72,7 @@ export class plan extends page {
                 <div class="desc-flex-radio">
                 <input class="input-radio" type="radio" id="op3" name="plan" value="15">
                 <h2 for="op3" class="font-m-b blue1 plan-title">Pro</h2>
-                <span class="font-m-l gray1 span-option plan-price">$9/mo</span>
+                <span class="font-m-l gray1 span-option plan-price">$15/mo</span>
                 <span class="font-p-n blue1 span-option free-month none">2 months free</span>
                 </div>
             </label>
